@@ -19,13 +19,13 @@ right place. 🎧✨
   or close the app
 - 🚀 Optional "Launch at Startup" toggle
 - 🔒 Runs entirely locally — no network access, no telemetry (see
-  [SECURITY.md](SECURITY.md))
+  [security.md](security.md))
 
 ## ✅ Requirements
 
 - Windows
 - Administrator rights (needed for the global hotkey and the startup
-  toggle — see SECURITY.md for why)
+  toggle — see [security.md](security.md) for why)
 
 ## 📥 Getting the Source
 
@@ -35,14 +35,15 @@ git clone https://github.com/Anonymi69/audio-device-switcher-utility.git
 ```
 
 **Option 2 — don't want to deal with git or GitHub's "Code" button?**
-Grab the zipped source straight from the repo's [Releases](https://github.com/Anonymi69/audio-device-switcher-utility/releases/) page
-instead — it's just a pre-packaged copy of the full source, no fuss.
+Grab the zipped source straight from the repo's
+[**Releases**](https://github.com/Anonymi69/audio-device-switcher-utility/releases/)
+page instead — it's just a pre-packaged copy of the full source, no fuss.
 
 > ⚠️ Note: there's no pre-built `.exe` release. Random pre-built
 > binaries are a classic way malware spreads, so to keep this
 > trustworthy, you build it yourself from source (literally one
 > double-click — see below 👇). Full reasoning in
-> [SECURITY.md](SECURITY.md).
+> [security.md](security.md).
 
 ## 🧪 Running It as a Raw Script (for testing/development)
 
@@ -88,7 +89,7 @@ this is expected, not a bug. 🙂
 
 Your device list, labels, and hotkey are saved locally to
 `devices.json` next to the executable. Nothing is sent anywhere — see
-[SECURITY.md](SECURITY.md) for full details on data handling.
+[security.md](security.md) for full details on data handling.
 
 ## ❓ FAQ
 
@@ -111,7 +112,7 @@ there's no binary floating around for anything to be hidden in, you
 can verify it however you like: read the source yourself, or paste it
 into any AI chatbot and ask it to review what the code actually does.
 Because you control the build end-to-end, the risk of a hidden virus
-is effectively zero. See [SECURITY.md](SECURITY.md) for a full
+is effectively zero. See [security.md](security.md) for a full
 breakdown of what the app does and doesn't touch on your system.
 
 **Is this free?**
