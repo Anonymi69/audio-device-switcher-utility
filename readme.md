@@ -23,7 +23,9 @@ right place. 🎧✨
 
 ## ✅ Requirements
 
-- Windows
+- Windows 10 (version 1809 or later) or Windows 11 — the audio
+  endpoint–switching API this app relies on requires that minimum
+  build
 - Administrator rights (needed for the global hotkey and the startup
   toggle — see [security.md](security.md) for why)
 
